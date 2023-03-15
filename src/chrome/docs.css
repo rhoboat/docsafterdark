@@ -252,9 +252,7 @@ svg.kix-configure-dropdown-button-add-icon {
 .docs-labeled-button-label,
 .docs-sidebar-tile-input-label,
 .docs-sidebar-tile-label,
-.kix-embedded-entity-options .docs-material-gm-select-caption,
-.docs-grille-gm3 .navigation-item-content:not(.navigation-item-level-0),
-.docs-grille-gm3 .kix-smart-summary-text-container {
+.kix-embedded-entity-options .docs-material-gm-select-caption {
   color: var(--secondary-text-color);
 }
 
@@ -1878,7 +1876,9 @@ body.docs-grille-gm3,
 
 .docs-grille-gm3 #docs-toolbar-mode-switcher .goog-toolbar-menu-button-caption,
 .docs-grille-gm3 .docos-anchoreddocoview .docos-showrepliesbutton-collapsed-internal,
-.docs-grille-gm3 .docos-showrepliesbutton-collapsed {
+.docs-grille-gm3 .docos-showrepliesbutton-collapsed,
+.docs-grille-gm3 .navigation-item-content:not(.navigation-item-level-0),
+.docs-grille-gm3 .kix-smart-summary-text-container {
   color: var(--secondary-text-color);
 }
 
