@@ -37,11 +37,13 @@ function dad() {
     return;
   }
   dark_mode_state = true;
+
   const css = document.createElement("link");
   css.setAttribute("href", chrome.runtime.getURL("docs.css"));
   css.id = "docs-dark-mode";
   css.rel = "stylesheet";
   document.body.insertBefore(css, document.body.lastChild);
+
   insert_button();
 }
 

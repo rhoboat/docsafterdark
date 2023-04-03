@@ -15,6 +15,15 @@
             "css": [
                 "default.css"
             ]
+        },
+        {
+            "matches": [
+                "*://docs.google.com/document/*"
+            ],
+            "js": [
+                "inject.js"
+            ],
+            "runAt": "document_idle"
         }
     ],
     "action": {
@@ -35,7 +44,8 @@
                 "assets/dimension-highlighted.edited.png",
                 "assets/access_denied_transparent.png",
                 "assets/access_denied_600_transparent.png",
-                "assets/gm_add_black_24dp.png"
+                "assets/gm_add_black_24dp.png",
+                "kix_app.js"
             ],
             "matches": [
                 "*://docs.google.com/*"
